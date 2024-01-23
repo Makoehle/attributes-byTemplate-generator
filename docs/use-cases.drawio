@@ -1,9 +1,12 @@
 <mxfile host="65bd71144e">
     <diagram id="swZmjb-AvOTWZpKOllsH" name="Page-1">
-        <mxGraphModel dx="734" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="862" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+                    <mxGeometry width="800" height="600" as="geometry"/>
+                </mxCell>
                 <mxCell id="24" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
@@ -14,6 +17,9 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=elbowEdgeStyle;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9" target="31">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Fleetresponsible" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
@@ -40,7 +46,7 @@
                 <mxCell id="16" value="Service" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
                     <mxGeometry x="690" y="230" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Create attributes if missing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="17" value="Create attributes (once)&lt;br&gt;if missing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="460" y="40" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Create hardcoded attribute group if missing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -51,6 +57,12 @@
                 </mxCell>
                 <mxCell id="21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
                     <mxGeometry x="540" y="80" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Disable interaction 'delete'" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="260" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="CRUD attribute set" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="520" width="140" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
